@@ -1,18 +1,19 @@
 
 <!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8">
     <title>Build amazing things</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body style="margin: 0px; height: 100%; background-color: rgb(247, 236, 236);"> 
     <header>
       <div>
         <div>
           <img class="blackHeart" src="/images/black-heart.png", alt="black heart" />
-          
-          <aside><span> Nifty Penguin Magic </span></aside>
+           <span> Nifty Penguin Magic </span>
+          <p></p>
         </div>
         <nav>
           <ul>
@@ -25,22 +26,19 @@
           </ul>
         </nav>
         <div>
-          <img class="npm-logo" src="/images/npm-logo.png", alt="npm-logo" />
+          <div class="npm">
+            <img class="logo" src="images/npm-logo.png" alt="logo">
+            <form action="your-search-url" method="get" class="search-form">
+                <div class="search-box">
+                    <img class="magnifying-glass" src="images/magnifying-glass.png" alt="magnifying-glass">
+                    <input class="search" type="search" id="search" name="query" placeholder="Search packages">
+                </div>
+                <input type="submit" value="Search">
+            </form>
+            <a class="join" href="#">Join</a>
+            <a class="login" href="#">Log in</a>
         </div>
-        <div>
-          <img class="npm-logo" src="/images/magnifying-glass.png", alt="magnifying-glass" />  
-        </div>
-      
-        <div>
-          <a href="#">Join</a> <a href="#">Log In</a>
-          <form>
-            <input type="text" id="search" name="search">
-            <input type="submit" value="Search">
-          </form>
-        </div>
-      </div>
-    
-      <div>
+          
         <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
       </div>
     </header>

@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgray;
+    flex-direction: row;
   }
   
   nav {
@@ -17,7 +18,7 @@
   
   nav ul {
     
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
     list-style: none;
     display: flex;
@@ -34,7 +35,42 @@
     width: 20px;
     margin-right: 1rem;
   }
-  .trianglehexagon{
+  .npm {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+  width: 50px;
+   margin-right: 1em;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+.magnifying-glass {
+  position: absolute;
+  left: 10px;
+  height: 20px;
+}
+.join {
+  padding: 5px 15px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black
+}
+
+  .trianglehexagon {
     width: 200px;
     margin-right: 2rem;
   }
